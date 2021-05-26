@@ -25,7 +25,7 @@
    state: present
 
 - name: Start jenkins
- service:
-  name: jenkins
-   enabled: yes
-   state : started
+  service:
+   name: jenkins
+    enabled: yes
+    state : started
